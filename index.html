@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbdulClean Services</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo"><img src="img/logo.png" alt="Logo">AbdulClean</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="floating-bubbles"></div>
+        <div class="hero-content">
+            <h1>Professional Cleaning Services</h1>
+            <p>Making your space sparkle, one room at a time</p>
+            <button id="getQuoteButton" type="button" class="cta-button">Get a Free Quote</button>
+
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>Residential Cleaning</h3>
+                <p>Comprehensive home cleaning services tailored to your needs.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏢</div>
+                <h3>Commercial Cleaning</h3>
+                <p>Professional cleaning solutions for businesses of all sizes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🧹</div>
+                <h3>Deep Cleaning</h3>
+                <p>Thorough deep cleaning services for a spotless environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="testimonial-container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"The best cleaning service I've ever used. They pay attention to every detail!"</p>
+                <h4>- Sarah Johnson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Reliable, professional, and thorough. Highly recommended!"</p>
+                <h4>- Mike Thompson</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking-form">
+        <h2>Book a Cleaning</h2>
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" placeholder="Type your Name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Type your Email Address" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Type your number" id="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Service Type</label>
+                <select id="service" required>
+                    <option value="">Select a service</option>
+                    <option value="residential">Residential Cleaning</option>
+                    <option value="commercial">Commercial Cleaning</option>
+                    <option value="deep">Deep Cleaning</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Special Instructions</label>
+                <textarea placeholder="Type your message" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="cta-button">Book Now</button>
+        </form>
+        
+        <div id="successMessage" class="success-message" >
+            Thank you! We'll contact you soon to confirm your appointment.
+        </div>
+    </section>
+
+    <!-- <div class="social-icons">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div> -->
+
+  
+    
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +41 78 206 79 07</p>
+                <p>Email: abdulclean@company.com</p>
+                
+            </div>
+            
+            <div class="location">
+                <h3>Find Us</h3>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.7721054609273!2d8.522063175537516!3d47.39108457191592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a0cf052fcdb%3A0x500cdd441f7d5d0!2sRosengartenstrasse%2027%2C%208037%20Z%C3%BCrich%2C%20Switzerland!5e0!3m2!1sen!2sch!4v1698687404872!5m2!1sen!2sch" "
+                        width="600" 
+                        height="300" 
+                        allowfullscreen 
+                        loading="lazy">
+                    </iframe>
+                </div>
+              
+
+
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <img src="img/ins 1.png" alt="Instagram Logo">
+            <img src="img/linkedin.webp" alt="LinkedIn Logo" >
+            <img src="img/whatsapp.png" alt="WhatsApp Logo" >
+        </div>
+        
+
+
+        <div class="copyright">
+            &copy; 2024 Abdul Cleaning Company. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
